@@ -1,0 +1,22 @@
+vlans:
+    office:
+        vid: 100
+        description: "Our SDN network"
+
+dps:
+    s1:
+        dp_id: 0x1
+        hardware: "Open vSwitch"
+        interfaces:
+            1:
+                name: "client"
+                native_vlan: office
+            2:
+                name: "server1"
+                native_vlan: office
+            3:
+                name: "server2"
+                native_vlan: office
+            4:
+                name: "server3"
+                native_vlan: office
