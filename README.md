@@ -263,19 +263,6 @@ deactivate
 
 ---
 
-## 📚 What I Learned
-
-- What SDN is and why it matters in modern networking
-- How OpenFlow protocol works
-- How to use Mininet to simulate real networks
-- How to program a virtual switch with flow rules
-- How load balancers distribute traffic
-- How Virtual IPs hide real server addresses
-- How ARP works at the network layer
-- How to use Python virtual environments properly
-
----
-
 ## 🔗 References
 
 - [Mininet Official Site](http://mininet.org)
